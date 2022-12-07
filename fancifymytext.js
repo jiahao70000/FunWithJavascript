@@ -17,6 +17,6 @@ function boringBetty() {
 
 function Moo() {
     var str = document.getElementById("txtArea");
-    var parts = str.value.split(".");
-    str.value = parts.join("-Moo");
+    var parts = str.value.split(" ");
+    str.value = parts.join("-Moo ");
 }
